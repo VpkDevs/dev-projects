@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+httpx
+pydantic
+sqlalchemy[asyncio]
+asyncpg
+aioredis
+python-dotenv
+websockets
+loguru
+redis

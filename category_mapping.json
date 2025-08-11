@@ -1,0 +1,241 @@
+{
+  "categories": [
+    {
+      "name": "analyze",
+      "definition": "Tools for data analysis, AI insights, monitoring, and intelligence gathering. Your analytical laboratory.",
+      "inclusion_criteria": [
+        "Primary function involves data analysis, processing, or insights generation",
+        "Includes monitoring, tracking, or detection capabilities",
+        "Provides intelligence gathering or predictive analytics",
+        "Focuses on evaluation, comparison, or verification of data/content",
+        "Offers financial analysis or market intelligence features"
+      ],
+      "example_projects": [
+        "market-oracle",
+        "truth-lens",
+        "smart-sort"
+      ],
+      "counter_examples": [
+        "content-cosmos (belongs in create - focuses on content creation)",
+        "shield-guard (belongs in core - primary purpose is protection/blocking)"
+      ],
+      "relocation_advice": "Projects that focus purely on creation should move to create/, security tools to core/, and experimental analytics to experimental/analytics/"
+    },
+    {
+      "name": "create",
+      "definition": "Everything you need to create, design, and produce content. From apps to graphics to documentation - your creative workshop.",
+      "inclusion_criteria": [
+        "Primary purpose is content generation or creation",
+        "Provides tools for design, prototyping, or wireframing",
+        "Enables creative expression through various media formats",
+        "Offers template creation or project scaffolding",
+        "Facilitates storytelling, documentation, or presentation creation"
+      ],
+      "example_projects": [
+        "story-architect",
+        "pixel-perfect",
+        "template-gallery"
+      ],
+      "counter_examples": [
+        "learn-lens (belongs in analyze - focuses on analysis and insights)",
+        "doc-hub (belongs in core - focuses on centralization/management)"
+      ],
+      "relocation_advice": "Analytics tools should move to analyze/, management tools to core/, and experimental creative tools to experimental/creative-tools/"
+    },
+    {
+      "name": "core",
+      "definition": "Your most essential tools for daily development and productivity work. These are the tools you reach for every day - your digital toolbelt.",
+      "inclusion_criteria": [
+        "Used multiple times per day for essential tasks",
+        "Provides fundamental development or productivity features",
+        "Integrates deeply with daily workflow",
+        "Offers workspace, environment, or system management",
+        "Essential for project tracking, documentation, or knowledge management"
+      ],
+      "example_projects": [
+        "code-companion",
+        "dev-sanctuary",
+        "universal-hub"
+      ],
+      "counter_examples": [
+        "market-oracle (belongs in analyze - specialized analysis tool)",
+        "story-architect (belongs in create - specific to content creation)"
+      ],
+      "relocation_advice": "Specialized tools should move to specialize/, experimental features to experimental/, and analysis-focused tools to analyze/"
+    },
+    {
+      "name": "specialize",
+      "definition": "Specialized tools for specific use cases, domains, or audiences. Your expert toolkit.",
+      "inclusion_criteria": [
+        "Targets a specific niche market or use case",
+        "Provides domain-specific functionality",
+        "Serves a particular audience or industry",
+        "Offers specialized features not found in general tools",
+        "Focuses on legacy support or archival purposes"
+      ],
+      "example_projects": [
+        "auction-scout",
+        "faith-stack",
+        "night-shift"
+      ],
+      "counter_examples": [
+        "universal-hub (belongs in core - general purpose tool)",
+        "template-gallery (belongs in create - general creation resource)"
+      ],
+      "relocation_advice": "General purpose tools should move to core/, creative tools to create/, and deprecated projects to archived/"
+    },
+    {
+      "name": "enterprise",
+      "definition": "Production-grade, mission-critical, high-stakes projects with enterprise-quality code, comprehensive testing, documentation, and monitoring.",
+      "inclusion_criteria": [
+        "Production-ready with high availability requirements",
+        "Includes comprehensive testing and monitoring",
+        "Handles mission-critical business functions",
+        "Requires scalability and performance optimization",
+        "Implements enterprise-grade security and compliance"
+      ],
+      "example_projects": [
+        "Would include production SaaS platforms",
+        "Enterprise data warehouses",
+        "Mission-critical automation systems"
+      ],
+      "counter_examples": [
+        "temp-forge (belongs in experimental - temporary workspace)",
+        "genesis-lab (belongs in experimental - for experiments)"
+      ],
+      "relocation_advice": "Prototypes should move to experimental/, personal tools to personal/, and client-ready but non-critical to professional/"
+    },
+    {
+      "name": "professional",
+      "definition": "Medium complexity, client/business ready projects with professional-quality code, testing, and documentation for client environments.",
+      "inclusion_criteria": [
+        "Client-ready with professional code quality",
+        "Includes basic testing and documentation",
+        "Suitable for business use at moderate scale",
+        "Implements standard security practices",
+        "Provides reliable performance for business needs"
+      ],
+      "example_projects": [
+        "Business web applications",
+        "Client reporting dashboards",
+        "Custom business solutions"
+      ],
+      "counter_examples": [
+        "temp-forge (belongs in experimental - not client-ready)",
+        "july-launch (belongs in core or personal - appears to be personal project)"
+      ],
+      "relocation_advice": "Personal projects to personal/, experimental features to experimental/, and mission-critical upgrades to enterprise/"
+    },
+    {
+      "name": "personal",
+      "definition": "Simple to medium complexity projects for individual use with functional code, basic documentation, and personal quality standards.",
+      "inclusion_criteria": [
+        "Designed for individual or personal use",
+        "Learning-focused or hobby projects",
+        "Simple to medium complexity",
+        "Personal productivity or utility tools",
+        "No business or client requirements"
+      ],
+      "example_projects": [
+        "note-ninja",
+        "money-mentor",
+        "key-commander"
+      ],
+      "counter_examples": [
+        "auction-scout (belongs in specialize - targets specific market)",
+        "enterprise platforms (belong in enterprise)"
+      ],
+      "relocation_advice": "Client-ready projects to professional/, niche tools to specialize/, and experiments to experimental/"
+    },
+    {
+      "name": "experimental",
+      "definition": "Any complexity R&D, proof-of-concept projects with exploratory code, minimal documentation, and rapid prototyping focus.",
+      "inclusion_criteria": [
+        "Research and development focus",
+        "Proof-of-concept or prototype stage",
+        "Exploring new technologies or approaches",
+        "Minimal documentation acceptable",
+        "Not production-ready"
+      ],
+      "example_projects": [
+        "genesis-lab",
+        "temp-forge",
+        "workspace-alpha"
+      ],
+      "counter_examples": [
+        "code-companion (belongs in core - daily essential tool)",
+        "market-oracle (belongs in analyze - functional analysis tool)"
+      ],
+      "relocation_advice": "Production-ready projects to appropriate level (personal/professional/enterprise), specialized experiments to specialize/"
+    },
+    {
+      "name": "archived",
+      "definition": "Deprecated, obsolete, or historical projects maintained for reference but no longer actively developed.",
+      "inclusion_criteria": [
+        "No longer actively maintained",
+        "Deprecated or obsolete technology",
+        "Historical reference value only",
+        "Superseded by newer versions",
+        "Failed experiments or abandoned projects"
+      ],
+      "example_projects": [
+        "legacy-vault",
+        "version-museum",
+        "archived-projects content"
+      ],
+      "counter_examples": [
+        "temp-forge (belongs in experimental - still active workspace)",
+        "workspace-alpha (belongs in experimental - new workspace)"
+      ],
+      "relocation_advice": "Active projects should move to appropriate category based on their purpose and maturity level"
+    },
+    {
+      "name": "unsorted",
+      "definition": "Temporary holding area for projects awaiting categorization or evaluation.",
+      "inclusion_criteria": [
+        "Newly created projects without clear category",
+        "Projects under evaluation for proper placement",
+        "Ambiguous purpose requiring clarification",
+        "Awaiting more development to determine category",
+        "Recent imports needing organization"
+      ],
+      "example_projects": [
+        "Projects pending review",
+        "New imports",
+        "Unclear purpose projects"
+      ],
+      "counter_examples": [
+        "Any project with clear purpose and category",
+        "Well-documented projects with obvious placement"
+      ],
+      "relocation_advice": "All projects should be evaluated and moved to appropriate categories within 30 days of creation"
+    }
+  ],
+  "migration_rules": {
+    "analyze_to_experimental": "Move analytics experiments and unproven analysis tools",
+    "analyze_to_personal": "Move personal finance and tracking tools used individually",
+    "create_to_professional": "Move client-ready creation tools and templates",
+    "core_to_personal": "Move personal productivity tools not used daily",
+    "core_to_enterprise": "Move mission-critical daily tools with high stakes",
+    "experimental_to_archived": "Move failed experiments and abandoned prototypes",
+    "personal_to_professional": "Move tools that evolved to client-ready status",
+    "professional_to_enterprise": "Move tools that scaled to mission-critical status",
+    "all_to_archived": "Move any deprecated or obsolete projects"
+  },
+  "categorization_criteria": {
+    "primary_factors": [
+      "Intended audience (personal/client/enterprise)",
+      "Maturity level (experimental/stable/production)",
+      "Complexity (simple/medium/high)",
+      "Purpose (analyze/create/manage/specialize)",
+      "Usage frequency (daily/occasional/rare)"
+    ],
+    "secondary_factors": [
+      "Documentation quality",
+      "Testing coverage",
+      "Deployment requirements",
+      "Security requirements",
+      "Scalability needs"
+    ]
+  }
+}

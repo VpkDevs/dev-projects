@@ -1,0 +1,9 @@
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\Marjins_MarkupCompile.cache
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\Marjins.g.resources
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\Marjins.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\Marjins.AssemblyInfoInputs.cache
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\Marjins.AssemblyInfo.cs
+C:\Users\Public\dev\core\Marjins\obj\Debug\net8.0-windows\Marjins.csproj.CoreCompileInputs.cache

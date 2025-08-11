@@ -1,0 +1,54 @@
+{
+    "ui": {
+        "window_width": 1000,
+        "window_height": 700,
+        "splitter_sizes": [
+            250,
+            350,
+            100
+        ],
+        "remember_window_size": true,
+        "theme": "default"
+    },
+    "extraction": {
+        "auto_detect_profiles": true,
+        "include_empty_passwords": false,
+        "max_password_length": 1000,
+        "timeout_seconds": 30,
+        "retry_attempts": 3
+    },
+    "security": {
+        "auto_encrypt_saves": true,
+        "clear_clipboard_after": 60,
+        "log_level": "INFO",
+        "secure_delete_temp_files": true
+    },
+    "browsers": {
+        "enabled_browsers": [
+            "chrome",
+            "chrome_dev",
+            "chrome_canary",
+            "edge",
+            "edge_canary",
+            "edge_dev",
+            "brave",
+            "firefox",
+            "opera",
+            "opera_gx",
+            "opera_one",
+            "vivaldi",
+            "yandex",
+            "avg",
+            "ccleaner",
+            "whale"
+        ],
+        "check_running_processes": true,
+        "force_close_browsers": false
+    },
+    "export": {
+        "default_format": "txt",
+        "include_metadata": false,
+        "sort_alphabetically": true,
+        "remove_duplicates": true
+    }
+}

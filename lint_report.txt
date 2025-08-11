@@ -1,0 +1,74 @@
+MARKDOWN FILE VALIDATION REPORT
+================================================================================
+
+
+FILES WITH WARNINGS (VALID BUT COULD BE IMPROVED):
+----------------------------------------
+
+File: analyze\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: archived\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: core\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: create\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: enterprise\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: experimental\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: personal\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: professional\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: specialize\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+File: unsorted\what-belongs-here.md
+Warnings:
+  - File contains placeholder example text that should be replaced
+  - File contains placeholder counter-example text that should be replaced
+  - File contains 'To be determined' text that should be updated
+
+
+SUMMARY:
+----------------------------------------
+Total files checked: 10
+Valid files: 10
+Invalid files: 0
+Files with warnings: 10

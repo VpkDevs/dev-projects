@@ -1,0 +1,58 @@
+{
+  "// Note": "This is a template for if/when Warp supports MCP servers",
+  "// Current Status": "Warp terminal does not currently support MCP servers - this is for future reference",
+  "// Use Case": "This config would enable AI agents in Warp to access various external services",
+  
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\USERS\\public\\dev"
+      ],
+      "description": "Allow agent to read/write files in development directory"
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "{{GITHUB_TOKEN}}"
+      },
+      "description": "Enable GitHub repository operations"
+    },
+    "shell": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-shell"
+      ],
+      "description": "Execute shell commands directly"
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "description": "Persistent memory across sessions"
+    },
+    "docker": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-docker"
+      ],
+      "description": "Docker container management"
+    }
+  },
+  
+  "warpSpecificSettings": {
+    "enableMCP": false,
+    "comment": "This would need to be implemented by Warp team",
+    "proposedLocation": "Settings > AI > MCP Servers"
+  }
+}
